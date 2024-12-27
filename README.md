@@ -22,9 +22,9 @@ Agents in GenAI are usually designed to operate independently to some extent. Th
 A core feature of these agents is their ability to interact with their environment. In the case of language models, this might involve conversing with users, retrieving data from external databases, or manipulating digital environments to achieve a task (e.g., creating documents, editing text, or performing computations).
 - Task-Oriented Agents
 Some agents are focused on specific tasks, such as:
-     Chatbots or virtual assistants (e.g., Siri, Alexa) that can help users by answering questions, providing recommendations, or executing commands.
-     Content Generators that create articles, summaries, or even entire books.
-     Personalized Agents that learn from users’ behavior to provide tailored suggestions, like Netflix recommendations or personalized email responses.
+     -Chatbots or virtual assistants (e.g., Siri, Alexa) that can help users by answering questions, providing recommendations, or executing commands.
+     -Content Generators that create articles, summaries, or even entire books.
+     -Personalized Agents that learn from users’ behavior to provide tailored suggestions, like Netflix recommendations or personalized email responses.
 - Multi-Agent Systems
 In more advanced implementations, multiple agents can work together in a coordinated manner to complete more complex tasks. This involves collaboration or competition between agents, which is often used in simulated environments for research, gaming, or complex problem-solving.
 - Learning Capabilities
