@@ -34,9 +34,20 @@ While agents can work independently, they are also frequently designed to collab
 
 ### 2. RAG - RETRIEVAL-AUGMENTED GENERATION
 RAG is the process of optimizing the output of a large language model, so it references an authoritative knowledge base outside of its training data sources before generating a response. Large Language Models (LLMs) are trained on vast volumes of data and use billions of parameters to generate original output for tasks like answering questions, translating languages, and completing sentences. RAG extends the already powerful capabilities of LLMs to specific domains or an organization's internal knowledge base, all without the need to retrain the model. It is a cost-effective approach to improving LLM output so it remains relevant, accurate, and useful in various contexts.
-
 ##### RAG addresses some key challenges with large language models, including:
 - Knowledge cutoff: LLMs have limited knowledge based on what they were trained on. RAG provides access to external knowledge, enabling LLMs to generate more accurate and reliable responses.
 - Hallucination risks: LLMs may generate responses that are not factually accurate or relevant to the query. RAG allows LLMs to draw upon external knowledge sources to supplement their internal representation of information, reducing the risk of hallucinations.
 - Contextual limitations: LLMs lack context from private data, leading to hallucinations when asked domain or company-specific questions. RAG provides up-to-date information about the world and domain-specific data to your GenAI applications, enabling them to generate more informed answers.
 - Auditability: RAG allows GenAI to cite its sources and improves auditability, making it easier to track the sources of information used to generate responses.
+
+### 4. Langchain
+LangChain is an open-source framework for building applications based on LLMs.
+LLMs are large deep-learning models pre-trained on large amounts of data that can generate responses to user queries—for example, answering questions or creating images from text-based prompts. 
+LangChain provides tools and abstractions to improve the customization, accuracy, and relevancy of the information the models generate. 
+For example, developers can use LangChain components to build new prompt chains or customize existing templates. LangChain also includes components that allow LLMs to access new data sets without retraining.
+Langchain uses the **Prompt-Template** to write the multiple prompts for any problems, to get perfect solutions.
+Multiple prompts:
+   1. Zero-Short Prompt
+   2. One-Short Prompts
+   3. Few-Short Prompts  
+
