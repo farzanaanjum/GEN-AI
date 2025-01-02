@@ -3,11 +3,12 @@
 
 
 # GenAI Techniques
-### 1. LLM - Large Language Model
-### 2. Agents
-### 3. RAG - Retrieval-Augmented Generation 
-### 4. Langchain
-### 5. MultiModel
+   ### 1. LLM - Large Language Model
+   ### 2. Agents
+   ### 3. RAG - Retrieval-Augmented Generation 
+   ### 4. Langchain
+   ### 5. MultiModel
+   ### 6. Prompt Engineering
 
 ### 1. LLM - LARGE LANGUAGE MODEL
 A LLM is a specialized type of AI that has been trained on vast amounts of text to understand existing content and generate original/new content.
