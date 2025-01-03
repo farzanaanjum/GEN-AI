@@ -52,3 +52,15 @@ Multiple prompts:
    2. One-Short Prompts
    3. Few-Short Prompts  
 
+### 5. MultiModel
+In the context of Generative AI (GenAI), **multimodal** refers to the capability of AI models to process and generate information across multiple types or modalities of data. This means the model can understand and work with different kinds of input such as text, images, audio, video, and even more complex combinations of these.
+For example, a **multimodal AI model** could:
+1. **Understand Text and Images**: A multimodal model might be able to interpret a text description and generate a corresponding image based on that description.
+2. **Combine Text and Audio**: The AI could process spoken language (audio) and generate text responses or even understand written text and produce audio output.
+3. **Contextual Awareness Across Modalities**: The AI can use information from multiple types of data together, allowing for more complex and contextual reasoning. For instance, it could read a piece of text and understand the emotional tone from an accompanying image.
+### Examples of Multimodal AI Models:
+1. **CLIP (Contrastive Language-Image Pretraining)**: A model developed by OpenAI that can link text with images. It can interpret a written description and search for the most relevant images that match it.
+2. **DALL·E**: Another OpenAI model, which generates images from textual descriptions (text-to-image).
+3. **GPT-4 with Vision**: An advanced version of the GPT model that is multimodal, capable of understanding both text and images, and responding accordingly to queries about pictures.
+
+
