@@ -1,0 +1,13 @@
+boto3
+numpy
+pandas
+python-dotenv
+streamlit
+awscli
+matplotlib
+langchain
+langchain-community
+seaborn
+sentence_transformers
+faiss
+PyPDF2
