@@ -1,7 +1,5 @@
-# MultiModal Search
-# E-Commerce Product Generator and Search Using MultiModal
+# Advertisement Image Generator
 
-Persona
 
 
 
