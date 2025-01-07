@@ -17,7 +17,8 @@ Generative AI, the term **multimodal** refers to the ability of a model to proce
 - **DALL·E**: A model that generates images from text prompts, effectively turning words into visual representations.
 - **DeepMind's Perceiver**: A model designed to handle a range of data types (images, video, audio, text) and can be trained across multiple modalities simultaneously.
 
-![image](https://github.com/user-attachments/assets/0ef82e0e-3a04-4d5f-9c8c-fc085bc792dd)
+![image](https://github.com/user-attachments/assets/8f74ae35-fca2-4c1e-9aff-7dbad608a424)
+
 
 
 
