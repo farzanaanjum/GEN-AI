@@ -12,10 +12,7 @@
 
 Remember to use the [4_CLEAN_UP.ipynb](./4\_CLEAN_UP.ipynb)
 
-***
 
-### Note
-If you use the notebook - [0_create_ingest_documents_test_kb.ipynb](./0\_create_ingest_documents_test_kb.ipynb) for creating the knowledge bases and do not delete the resources, you may be incurred cost of storing data in OpenSearch Serverless, even if you are not using it. Therefore, once you are done with trying out the sample code, make sure to delete all the resources. 
 
 ## Contributing
 
