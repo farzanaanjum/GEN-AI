@@ -13,19 +13,19 @@
 
 Before following above code need to have AWS.
 Steps:
-•	Create Amazon Bedrock Knowledge Base execution role with necessary policies for accessing data from S3 and writing embeddings into OSS.
-•	Create an empty OpenSearch serverless index.
-•	Download documents
-•	Create Amazon Bedrock knowledge base
-•	Create a data source within knowledge base which will connect to Amazon S3
-•	Start an ingestion job using KB APIs which will read data from s3, chunk it, convert chunks into embeddings using Amazon Titan Embeddings model and then store these embeddings in AOSS. All of this without having to build, deploy and manage the data pipeline.
+- Create Amazon Bedrock Knowledge Base execution role with necessary policies for accessing data from S3 and writing embeddings into OSS.
+- Create an empty OpenSearch serverless index.
+- Download documents.
+- Create Amazon Bedrock knowledge base.
+- Create a data source within knowledge base which will connect to Amazon S3.
+- Start an ingestion job using KB APIs which will read data from s3, chunk it, convert chunks into embeddings using Amazon Titan Embeddings model and then store these embeddings in AOSS. All of this without having to build, deploy and manage the data pipeline.
 
 Add below Pre-requisites to policies:
-•	IAMFullAccess
-•	AWSLambda_FullAccess
-•	AmazonS3FullAccess
-•	AmazonBedrockFullAccess
-•	Custom policy for Amazon OpenSearch Serverless
+- IAMFullAccess
+- AWSLambda_FullAccess
+- AmazonS3FullAccess
+- AmazonBedrockFullAccess
+- Custom policy for Amazon OpenSearch Serverless
 
 
 
