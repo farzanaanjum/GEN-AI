@@ -12,7 +12,7 @@
 - Remember to use the [4_CLEAN_UP.ipynb](https://github.com/farzanaanjum/GEN-AI/blob/main/Knowledge%20Base%20RAG/Knowledge_Base_RAG/4_CLEAN_UP.ipynb)
 
 Before following above code need to have AWS to follow below steps.
-Steps:
+**Steps:**
 - Create Amazon Bedrock Knowledge Base execution role with necessary policies for accessing data from S3 and writing embeddings into OSS.
 - Create an empty OpenSearch serverless index.
 - Download documents.
@@ -20,7 +20,7 @@ Steps:
 - Create a data source within knowledge base which will connect to Amazon S3.
 - Start an ingestion job using KB APIs which will read data from s3, chunk it, convert chunks into embeddings using Amazon Titan Embeddings model and then store these embeddings in AOSS. All of this without having to build, deploy and manage the data pipeline.
 
-Add below Pre-requisites to policies:
+**Add below Pre-requisites to policies:**
 - IAMFullAccess
 - AWSLambda_FullAccess
 - AmazonS3FullAccess
